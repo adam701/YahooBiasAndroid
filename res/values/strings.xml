@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YahooBIAS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tvTitleExample">5 Things You Didn\'t Know About Professional Video Gaming</string>
+    <string name="tvSourceExample">Yahoo Tech</string>
+    <string name="tvAuthorExample">Chen Wang</string>
+    <string name="tvReadMore">Read More</string>
+
+</resources>

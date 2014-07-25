@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="1dp" >
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/ivAds"
+        android:text="@string/tvTitleExample"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvSource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvTitle"
+        android:layout_marginTop="5dp"
+        android:text="@string/tvSourceExample"
+        android:textColor="#5BD6BF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvAuthoer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvSource"
+        android:layout_alignBottom="@+id/tvSource"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/tvSource"
+        android:text="@string/tvAuthorExample"
+        android:textColor="#9A9C9B"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvReadMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvAuthoer"
+        android:layout_alignBottom="@+id/tvAuthoer"
+        android:layout_alignParentRight="true"
+        android:text="@string/tvReadMore"
+        android:textColor="#4052A3"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/ivAds"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignRight="@+id/tvReadMore"
+        android:layout_alignTop="@+id/tvTitle"
+        android:src="@drawable/ic_action_coin" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvSource"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvSource"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/ivPic"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/ivPic1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           	android:layout_weight="5"
+            android:src="@drawable/ic_launcher" />
+
+    </LinearLayout>
+
+</RelativeLayout>
